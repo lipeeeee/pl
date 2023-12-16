@@ -4,7 +4,7 @@ from abc import ABC
 
 class PLModel(ABC):
     def __init__(self) -> None:
-        super().__init__()
+        ...
 
     def train(self, data, reset_weights=False):
         pass
